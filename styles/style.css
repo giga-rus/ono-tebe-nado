@@ -21,7 +21,6 @@
 
 .header__links-list-item {
   list-style: circle;
-
 }
 
 .header__links-list-item_no-bullit {
@@ -51,12 +50,12 @@
   line-height: 24.3px;
   font-style: normal;
   text-decoration: none;
-  padding-top: 5px;
   align-self: center;
 }
 
 .header__address {
   justify-self: end;
+  padding-top: 5px;
 }
 
 .cover {
@@ -271,4 +270,59 @@
   color: black;
   font-weight: 400;
   line-height: 24px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 178px 50px 91px;
+  place-content: start space-around;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+
+.footer__menu {
+  justify-self: center;
+}
+
+.footer__menu-list {
+  text-align: center;
+}
+
+.footer__menu-list-item {
+  list-style: none;
+}
+
+.footer__menu-link {
+  border-bottom: 1px solid black;
+  text-decoration: none;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  justify-self: end;
+}
+
+.footer__social-list-item {
+  list-style: none;
+}
+
+.footer__social-link {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+
+.footer__social-icon {
+  margin: auto;
+  height: 48px;
+  width: 48px;
 }
