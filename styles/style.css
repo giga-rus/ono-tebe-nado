@@ -28,8 +28,7 @@
 }
 
 .header__link {
-  border-bottom: 1px solid black;
-  text-decoration: none;
+  text-underline-position: under;
 }
 
 .header__link_active {
@@ -46,11 +45,13 @@
 }
 
 .address {
+  display: flex;
+  flex-direction: column;
   align-self: center;
   width: 240px;
   font-style: normal;
   line-height: 24.3px;
-  text-decoration: none;
+  text-underline-position: under;
 }
 
 .header__address {
@@ -60,9 +61,7 @@
 
 .cover {
   position: relative;
-  background-image: url(../images/cover.jpg);
-  background-position: center;
-  background-size: cover;
+  background: url(../images/cover.jpg) no-repeat center / cover;
 }
 
 .overlay {
